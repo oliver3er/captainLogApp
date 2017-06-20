@@ -161,10 +161,12 @@ main {
 
 .logo-img-div {
 	background: url(../images/logo.svg) no-repeat center center;
+	background-size: 29px 31px;
 }
 
 .menu-img-div {
 	background: url(../images/moreIcon.svg) no-repeat right center;
+	background-size: 18px 17px;
 }
 
 .content {
@@ -211,10 +213,10 @@ main {
 }
 
 .label {
-	padding: 8px 10px 8px 15px;
-	height: 50px;
+	padding: 4px 5px 4px 8px;
+	height: 30px;
 	border: 1px solid rgba(42,126,177,.8);
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow: inset 1px 1px 2px rgba(112,182,226,.3), 0 1px 0 rgba(57,127,170,.3);
     outline: 0;
     box-sizing: border-box;
@@ -223,7 +225,7 @@ main {
 	text-align:center;
 	font-size: 16px;
 	font-weight: 400;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 .label-live {
