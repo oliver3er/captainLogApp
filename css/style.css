@@ -234,7 +234,7 @@ main {
 
 .label-colorful {
 	border: 1px solid rgba(212,213,213,.3);
-	border-radius: 8px;
+	border-radius: 4px;
 	box-shadow: inset 1px 1px 2px rgba(186,188,190,.3), 0 1px 0 rgba(164,165,165,.3);
 	color: rgba(255,255,255,1);
 }
