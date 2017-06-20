@@ -285,15 +285,15 @@ footer .tabs {
 }
 
 .home-tab {
-	background: url(../images/homeIcon.png) no-repeat center center;
+	background: url(../images/homeIcon.png) no-repeat center;
 	background-size: 35px 35px;
 }
 .add-tab {
-	background: url(../images/addIconplus.png) no-repeat center center;
+	background: url(../images/addIconplus.png) no-repeat center;
 	background-size: 35px 35px;
 }
 .more-tab {
-	background: url(../images/searchIcon.png) no-repeat center center;
+	background: url(../images/searchIcon.png) no-repeat center;
 	background-size: 35px 35px;
 }
 
