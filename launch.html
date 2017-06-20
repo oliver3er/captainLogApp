@@ -7,9 +7,65 @@
 	<meta content="black"name="apple-mobile-web-app-status-bar-style"/>
 	<meta content="telephone=no"name="format-detection"/>
 	<meta content="email=no"name="format-detection"/>
+	
+	<style type="text/css">
+		html,body {
+			height: 100%;
+		}
+		body {
+			display: flex; 
+			flex-direction: column;
+			justify-content: center;
+  			align-items: center;
+			background-color: rgba(48, 149, 211, .95);
+			color: rgba(246,245,245,1);
+		}
+		body > section {
+			flex: 0 1 auto;
+		}
+		.logo {
+			margin-top: 10pt;
+			margin-bottom: 25pt;
+			text-align: center;
+		}
+		.logo svg {
+			width: 75pt;
+			height: 80pt;
+		}
+		.captainlog {
+			text-align: center;
+			padding-bottom: 10pt;
+			font-size: 28pt;
+			font-weight: 400;
+		}
+		.slogan {
+			text-align: center;
+			font-size: 17pt;
+			font-weight: 400;
+		}
+	</style>
 </head>
 
 <body>
+	<section>
 	
+		<div class="logo">
+			<?xml version="1.0" encoding="utf-8"?>
+			<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+			<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+			<svg version="1.1" id="logo_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 60 65" enable-background="new 0 0 60 65" xml:space="preserve">
+				<path fill="#FFFFFF" d="M38.523,45.543c-1.983,0-3.904-0.27-5.728-0.775l-0.03,0.008l3.397,18.615l15.217-22.01l-0.208,0.035
+	c-3.545,2.596-7.916,4.127-12.65,4.127H38.523z M17.073,24.093c0-2.87,0.565-5.61,1.588-8.11L1,35.828l18.891-1.102v-0.002
+	c-1.791-3.135-2.817-6.766-2.817-10.634V24.093z M58.592,16.57L56.83,1L41.023,2.792C49.113,3.739,55.826,9.189,58.592,16.57
+	L58.592,16.57z"/>
+				<circle fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" cx="38.523" cy="23.739" r="14.89"/>
+				<circle fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" cx="38.5" cy="23.918" r="6.604"/>
+			</svg>
+		</div>
+		
+		<div class="captainlog"><span>船长日志</span></div>
+		<div class="slogan"><span>带上它开始你的冒险</span></div>
+	</section>
 </body>
 </html>

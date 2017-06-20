@@ -133,7 +133,7 @@ body {
     flex-direction: column; 
     margin: 0;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,Heiti SC,sans-self;
-	font-size: 32px;
+	font-size: 16pt;
 	font-weight: 400;
 	color: rgba(126,126,126,1);
 }
@@ -148,9 +148,9 @@ main {
 .navigation-bar {
 	display: flex; 
 	flex-direction: row; 
-	flex: 0 0 88px;
+	flex: 0 0 44pt;
 	justify-content: space-between;
-	padding: 0 30px;
+	padding: 0 15pt;
 	border-bottom: 1px solid rgba(190, 190, 190, .95);
 	background-color: rgba(48, 149, 211, .95);
 }
@@ -172,8 +172,8 @@ main {
 }
 
 .log {
-	margin-bottom: 15px;
-	padding: 0 30px;
+	margin-bottom: 7.5pt;
+	padding: 0 15pt;
 	background-color: rgba(255,255,255,1);
 }
 
@@ -181,10 +181,10 @@ main {
 	display: flex; 
 	flex-direction: row; 
 	justify-content: space-between;
-	padding-top: 10px;
+	padding-top: 5pt;
 }
 .log .log-more {
-	font-size: 36px;
+	font-size: 18pt;
 	color: rgba(78,128,168,1);
 }
 
@@ -192,18 +192,18 @@ main {
 	display: flex; 
 	flex-direction: column; 
 	justify-content: center;
-	font-size: 22px;
+	font-size: 11pt;
 	color: rgba(195,195,195,1);
 }
 
 .log .log-label {
 	display: flex; 
 	flex-direction: row; 
-	padding: 15px 0 25px;
+	padding: 7.5pt 0 12.5pt;
 }
 
 .log .log-label div {
-	padding-left: 15px;
+	padding-left: 7.5pt;
 }
 
 .log .log-label div:first-child {
@@ -211,19 +211,19 @@ main {
 }
 
 .label {
-	padding: 8px 10px 8px 15px;
-	height: 50px;
-	border: 2px solid rgba(42,126,177,.8);
-	border-radius: 10px;
-	box-shadow: inset 1px 1px 2px rgba(112,182,226,.3), 0 1px 0 rgba(57,127,170,.3);
+	padding: 4pt 5pt 4pt 7.5pt;
+	height: 25pt;
+	border: 1pt solid rgba(42,126,177,.8);
+	border-radius: 5pt;
+	box-shadow: inset 0.5pt 0.5pt 1pt rgba(112,182,226,.3), 0 0.5pt 0 rgba(57,127,170,.3);
     outline: 0;
     box-sizing: border-box;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 	text-align:center;
-	font-size: 32px;
+	font-size: 16pt;
 	font-weight: 400;
-	letter-spacing: 5px;
+	letter-spacing: 2.5pt;
 }
 
 .label-live {
@@ -231,41 +231,41 @@ main {
 }
 
 .label-colorful {
-	border: 1px solid rgba(212,213,213,.3);
-	border-radius: 8px;
-	box-shadow: inset 1px 1px 2px rgba(186,188,190,.3), 0 1px 0 rgba(164,165,165,.3);
+	border: 0.5pt solid rgba(212,213,213,.3);
+	border-radius: 4pt;
+	box-shadow: inset 0.5pt 0.5pt 1pt rgba(186,188,190,.3), 0 0.5pt 0 rgba(164,165,165,.3);
 	color: rgba(255,255,255,1);
 }
 
 .log-content {
-	padding-bottom: 20px;
+	padding-bottom: 10pt;
 }
 
 .log-content p {
-	font-size: 30px;
+	font-size: 15pt;
 	font-weight: 300;
-	letter-spacing: 3px;
+	letter-spacing: 1.5pt;
 }
 
 .log-img {
 	width: 100%;
-	height: 208px;
-	padding-bottom: 28px;
+	height: 104pt;
+	padding-bottom: 14pt;
 	background: url(../images/logImage.png) no-repeat;
 	overflow: hidden;
 }
 
 footer {
 	position: relative;
-	flex: 0 0 98px;
-	border-top: 1px solid rgba(190, 190, 190, .95);
+	flex: 0 0 49pt;
+	border-top: 0.5pt solid rgba(190, 190, 190, .95);
 	background-color: rgba(247, 247, 247, .95);
 }
 
 footer > img {
 	position: absolute;
-	top: -20px;
-	left: calc(50% - 59px);
+	top: -10pt;
+	left: calc(50% - 29.5pt);
 	z-index: 10;
 }
 
