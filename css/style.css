@@ -133,7 +133,7 @@ body {
     flex-direction: column; 
     margin: 0;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,Heiti SC,sans-self;
-	font-size: 16px;
+	font-size: 32px;
 	font-weight: 400;
 	color: rgba(126,126,126,1);
 }
@@ -148,9 +148,9 @@ main {
 .navigation-bar {
 	display: flex; 
 	flex-direction: row; 
-	flex: 0 0 44px;
+	flex: 0 0 88px;
 	justify-content: space-between;
-	padding: 0 10px;
+	padding: 0 30px;
 	border-bottom: 1px solid rgba(190, 190, 190, .95);
 	background-color: rgba(48, 149, 211, .95);
 }
@@ -161,12 +161,10 @@ main {
 
 .logo-img-div {
 	background: url(../images/logo.svg) no-repeat center center;
-	background-size: 29px 31px;
 }
 
 .menu-img-div {
 	background: url(../images/moreIcon.svg) no-repeat right center;
-	background-size: 18px 17px;
 }
 
 .content {
@@ -174,8 +172,8 @@ main {
 }
 
 .log {
-	margin-bottom: 8px;
-	padding: 0 10px;
+	margin-bottom: 15px;
+	padding: 0 30px;
 	background-color: rgba(255,255,255,1);
 }
 
@@ -183,10 +181,10 @@ main {
 	display: flex; 
 	flex-direction: row; 
 	justify-content: space-between;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 .log .log-more {
-	font-size: 18px;
+	font-size: 36px;
 	color: rgba(78,128,168,1);
 }
 
@@ -194,14 +192,14 @@ main {
 	display: flex; 
 	flex-direction: column; 
 	justify-content: center;
-	font-size: 12px;
+	font-size: 22px;
 	color: rgba(195,195,195,1);
 }
 
 .log .log-label {
 	display: flex; 
 	flex-direction: row; 
-	padding: 14px 0 15px;
+	padding: 15px 0 25px;
 }
 
 .log .log-label div {
@@ -213,19 +211,19 @@ main {
 }
 
 .label {
-	padding: 4px 5px 4px 8px;
-	height: 30px;
-	border: 1px solid rgba(42,126,177,.8);
-	border-radius: 5px;
+	padding: 8px 10px 8px 15px;
+	height: 50px;
+	border: 2px solid rgba(42,126,177,.8);
+	border-radius: 10px;
 	box-shadow: inset 1px 1px 2px rgba(112,182,226,.3), 0 1px 0 rgba(57,127,170,.3);
     outline: 0;
     box-sizing: border-box;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 	text-align:center;
-	font-size: 16px;
+	font-size: 32px;
 	font-weight: 400;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 }
 
 .label-live {
@@ -234,42 +232,40 @@ main {
 
 .label-colorful {
 	border: 1px solid rgba(212,213,213,.3);
-	border-radius: 4px;
+	border-radius: 8px;
 	box-shadow: inset 1px 1px 2px rgba(186,188,190,.3), 0 1px 0 rgba(164,165,165,.3);
 	color: rgba(255,255,255,1);
 }
 
 .log-content {
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .log-content p {
-	font-size: 15px;
+	font-size: 30px;
 	font-weight: 300;
 	letter-spacing: 3px;
 }
 
 .log-img {
 	width: 100%;
-	height: 195px;
-	margin-bottom: 10px;
+	height: 208px;
+	padding-bottom: 28px;
 	background: url(../images/logImage.png) no-repeat;
 	overflow: hidden;
 }
 
 footer {
 	position: relative;
-	flex: 0 0 49px;
+	flex: 0 0 98px;
 	border-top: 1px solid rgba(190, 190, 190, .95);
 	background-color: rgba(247, 247, 247, .95);
 }
 
 footer > img {
 	position: absolute;
-	top: -10px;
-	left: calc(50% - 30px);
-	width: 59px;
-	height: 33px;
+	top: -20px;
+	left: calc(50% - 59px);
 	z-index: 10;
 }
 
@@ -281,20 +277,17 @@ footer .tabs {
 }
 
 .item-15 {
-	width: 20%;
+	width: 15%;
 }
 
 .home-tab {
-	background: url(../images/homeIcon.png) no-repeat center;
-	background-size: 35px 35px;
+	background: url(../images/homeIcon.svg) no-repeat center center;
 }
 .add-tab {
-	background: url(../images/addIconplus.png) no-repeat center;
-	background-size: 35px 35px;
+	background: url(../images/addIconplus.svg) no-repeat center center;
 }
 .more-tab {
-	background: url(../images/searchIcon.png) no-repeat center;
-	background-size: 35px 35px;
+	background: url(../images/searchIcon.svg) no-repeat center center;
 }
 
 /********************style end*******************/
