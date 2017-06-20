@@ -107,7 +107,7 @@ img {
 }
 .fa {
   display: inline-block;
-  font: normal normal normal 7dp/1 FontAwesome;
+  font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -133,7 +133,7 @@ body {
     flex-direction: column; 
     margin: 0;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,Heiti SC,sans-self;
-	font-size: 16dp;
+	font-size: 16px;
 	font-weight: 400;
 	color: rgba(126,126,126,1);
 }
@@ -148,9 +148,9 @@ main {
 .navigation-bar {
 	display: flex; 
 	flex-direction: row; 
-	flex: 0 0 44dp;
+	flex: 0 0 44px;
 	justify-content: space-between;
-	padding: 0 15dp;
+	padding: 0 15px;
 	border-bottom: 1px solid rgba(190, 190, 190, .95);
 	background-color: rgba(48, 149, 211, .95);
 }
@@ -172,8 +172,8 @@ main {
 }
 
 .log {
-	margin-bottom: 7.5dp;
-	padding: 0 15dp;
+	margin-bottom: 8px;
+	padding: 0 15px;
 	background-color: rgba(255,255,255,1);
 }
 
@@ -181,10 +181,10 @@ main {
 	display: flex; 
 	flex-direction: row; 
 	justify-content: space-between;
-	padding-top: 5dp;
+	padding-top: 5px;
 }
 .log .log-more {
-	font-size: 18dp;
+	font-size: 18px;
 	color: rgba(78,128,168,1);
 }
 
@@ -192,18 +192,18 @@ main {
 	display: flex; 
 	flex-direction: column; 
 	justify-content: center;
-	font-size: 11dp;
+	font-size: 11px;
 	color: rgba(195,195,195,1);
 }
 
 .log .log-label {
 	display: flex; 
 	flex-direction: row; 
-	padding: 7.5dp 0 12.5dp;
+	padding: 14px 0 25px;
 }
 
 .log .log-label div {
-	padding-left: 7.5dp;
+	padding-left: 15px;
 }
 
 .log .log-label div:first-child {
@@ -211,19 +211,19 @@ main {
 }
 
 .label {
-	padding: 4dp 5dp 4dp 7.5dp;
-	height: 25dp;
-	border: 1dp solid rgba(42,126,177,.8);
-	border-radius: 5dp;
-	box-shadow: inset 0.5dp 0.5dp 1dp rgba(112,182,226,.3), 0 0.5dp 0 rgba(57,127,170,.3);
+	padding: 8px 10px 8px 15px;
+	height: 50px;
+	border: 1px solid rgba(42,126,177,.8);
+	border-radius: 10px;
+	box-shadow: inset 1px 1px 2px rgba(112,182,226,.3), 0 1px 0 rgba(57,127,170,.3);
     outline: 0;
     box-sizing: border-box;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 	text-align:center;
-	font-size: 16dp;
+	font-size: 16px;
 	font-weight: 400;
-	letter-spacing: 2.5dp;
+	letter-spacing: 5px;
 }
 
 .label-live {
@@ -231,41 +231,43 @@ main {
 }
 
 .label-colorful {
-	border: 0.5dp solid rgba(212,213,213,.3);
-	border-radius: 4dp;
-	box-shadow: inset 0.5dp 0.5dp 1dp rgba(186,188,190,.3), 0 0.5dp 0 rgba(164,165,165,.3);
+	border: 1px solid rgba(212,213,213,.3);
+	border-radius: 8px;
+	box-shadow: inset 1px 1px 2px rgba(186,188,190,.3), 0 1px 0 rgba(164,165,165,.3);
 	color: rgba(255,255,255,1);
 }
 
 .log-content {
-	padding-bottom: 10dp;
+	padding-bottom: 20px;
 }
 
 .log-content p {
-	font-size: 15dp;
+	font-size: 15px;
 	font-weight: 300;
-	letter-spacing: 1.5dp;
+	letter-spacing: 3px;
 }
 
 .log-img {
 	width: 100%;
-	height: 104dp;
-	margin-bottom: 14dp;
+	height: 208px;
+	margin-bottom: 28px;
 	background: url(../images/logImage.png) no-repeat;
 	overflow: hidden;
 }
 
 footer {
 	position: relative;
-	flex: 0 0 49dp;
-	border-top: 0.5dp solid rgba(190, 190, 190, .95);
+	flex: 0 0 49px;
+	border-top: 1px solid rgba(190, 190, 190, .95);
 	background-color: rgba(247, 247, 247, .95);
 }
 
 footer > img {
 	position: absolute;
-	top: -10dp;
-	left: calc(50% - 29.5dp);
+	top: -10px;
+	left: calc(50% - 30px);
+	width: 59px;
+	height: 33px;
 	z-index: 10;
 }
 
@@ -282,12 +284,15 @@ footer .tabs {
 
 .home-tab {
 	background: url(../images/homeIcon.svg) no-repeat center center;
+	background-size: 38px 38px;
 }
 .add-tab {
 	background: url(../images/addIconplus.svg) no-repeat center center;
+	background-size: 38px 38px;
 }
 .more-tab {
 	background: url(../images/searchIcon.svg) no-repeat center center;
+	background-size: 38px 38px;
 }
 
 /********************style end*******************/
