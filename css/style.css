@@ -285,8 +285,8 @@ footer .tabs {
 }
 
 .home-tab {
-	##background: url(../images/homeIcon.svg) no-repeat center center;
-	##background-size: 35px 35px;
+	background: url(../images/homeIcon.svg) no-repeat center center;
+	background-size: 35px 35px;
 }
 .add-tab {
 	background: url(../images/addIconplus.svg) no-repeat center center;
