@@ -257,10 +257,6 @@ main {
 	overflow: hidden;
 }
 
-.log .log-img: last-child {
-	margin: 0;
-}
-
 footer {
 	position: relative;
 	flex: 0 0 49px;
